@@ -92,7 +92,7 @@ Test a digest authentication login
 
 #. Ensure that basic authentication is disabled execute the following curl command::
 
-     curl -v -u admin:geoserver -G "http://localhost:8080/geoserve/wfs?request=getcapabilities"
+     curl -v -u admin:geoserver -G "http://localhost:8080/geoserver/wfs?request=getcapabilities"
    
    The result should be a 401 response signaling that authentication is required. The output 
    should look something like the following::
